@@ -172,6 +172,11 @@ main {
   max-width: 680px;
 }
 
+.subsection-title {
+  margin-top: 28px;
+  font-size: 1.4rem;
+}
+
 .grid {
   margin-top: 32px;
   display: grid;
@@ -192,6 +197,12 @@ main {
   border-radius: 14px;
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
+}
+
+.card.stacked {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .card h3 {
@@ -224,6 +235,39 @@ main {
   background: #f1f5f9;
 }
 
+.gallery {
+  margin-top: 12px;
+}
+
+.gallery summary {
+  list-style: none;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.gallery summary::-webkit-details-marker {
+  display: none;
+}
+
+.gallery[open] summary {
+  margin-bottom: 10px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: #f8fafc;
+}
+
 .timeline {
   list-style: none;
   display: grid;
@@ -233,6 +277,22 @@ main {
 
 .contact .card a.btn {
   margin-top: 16px;
+}
+
+.thumb-link {
+  display: block;
+  width: 100%;
+  margin: 8px 0 12px;
+}
+
+.thumb {
+  width: 100%;
+  max-width: 260px;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  background: #fff;
 }
 
 .footer {
