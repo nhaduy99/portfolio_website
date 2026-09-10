@@ -18,3 +18,11 @@ document.addEventListener('click',e=>{const a=e.target.closest('a');if(!a||!a.ge
 dialog.querySelector('button').addEventListener('click',()=>dialog.close());
 dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close();});
 dialog.addEventListener('close',()=>opener?.focus());
+
+// Link the homepage CV action to the current engineering CV hosted in this portfolio.
+const cvLink = [...document.querySelectorAll('a')].find(a => a.textContent.trim().startsWith('Request CV'));
+if (cvLink) {
+  cvLink.href = 'documents/CV_Engineering_AI_Robotics_2026.html';
+  cvLink.textContent = 'View Engineering CV ↗';
+  cvLink.removeAttribute('target');
+}
