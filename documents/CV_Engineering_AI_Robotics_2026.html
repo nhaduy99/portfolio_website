@@ -6,67 +6,67 @@
 <title>Huynh Anh Duy Nguyen (Hubert) — Engineering, AI & Robotics CV</title>
 <style>
 :root{
---ink:#162331;
---muted:#5f6b76;
---line:#dbe3ea;
---paper:#ffffff;
---soft:#f5f8fb;
---accent:#174f7a;
---accent-soft:#eaf2f8;
+  --ink:#162331;
+  --muted:#5f6b76;
+  --line:#dbe3ea;
+  --paper:#ffffff;
+  --soft:#f5f8fb;
+  --accent:#174f7a;
+  --accent-soft:#eaf2f8;
 }
 *{box-sizing:border-box}
 html{background:#edf2f6}
 body{
-margin:0;
-font-family:"Segoe UI",Arial,Helvetica,sans-serif;
-color:var(--ink);
-background:#edf2f6;
-line-height:1.42;
+  margin:0;
+  font-family:"Segoe UI",Arial,Helvetica,sans-serif;
+  color:var(--ink);
+  background:#edf2f6;
+  line-height:1.42;
 }
 .page{
-width:210mm;
-min-height:297mm;
-margin:10mm auto;
-background:var(--paper);
-padding:13mm 15mm 14mm;
-box-shadow:0 7px 26px rgba(22,35,49,.09);
+  width:210mm;
+  min-height:297mm;
+  margin:10mm auto;
+  background:var(--paper);
+  padding:13mm 15mm 14mm;
+  box-shadow:0 7px 26px rgba(22,35,49,.09);
 }
 header{
-display:grid;
-grid-template-columns:minmax(0,1fr) auto;
-gap:22px;
-align-items:end;
-border-bottom:2.5px solid var(--accent);
-padding-bottom:10px;
-margin-bottom:13px;
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:22px;
+  align-items:end;
+  border-bottom:2.5px solid var(--accent);
+  padding-bottom:10px;
+  margin-bottom:13px;
 }
 h1{
-margin:0;
-font-size:27px;
-letter-spacing:.25px;
-line-height:1.05;
+  margin:0;
+  font-size:27px;
+  letter-spacing:.25px;
+  line-height:1.05;
 }
 .role{
-margin-top:5px;
-color:var(--accent);
-font-weight:700;
-font-size:13.6px;
+  margin-top:5px;
+  color:var(--accent);
+  font-weight:700;
+  font-size:13.6px;
 }
 .contact{
-text-align:right;
-font-size:9.7px;
-line-height:1.55;
-color:var(--muted);
+  text-align:right;
+  font-size:9.7px;
+  line-height:1.55;
+  color:var(--muted);
 }
 .contact a{color:inherit;text-decoration:none}
 h2{
-margin:15px 0 7px;
-padding-bottom:4px;
-color:var(--accent);
-border-bottom:1px solid var(--line);
-text-transform:uppercase;
-letter-spacing:.9px;
-font-size:12.4px;
+  margin:15px 0 7px;
+  padding-bottom:4px;
+  color:var(--accent);
+  border-bottom:1px solid var(--line);
+  text-transform:uppercase;
+  letter-spacing:.9px;
+  font-size:12.4px;
 }
 h3{margin:0;font-size:11.9px;line-height:1.3}
 h4{margin:0 0 3px;font-size:10.5px;color:var(--accent)}
@@ -74,371 +74,372 @@ p{margin:4px 0 7px;font-size:9.8px}
 ul{margin:4px 0 7px 17px;padding:0}
 li{margin:2px 0;font-size:9.7px}
 .profile{
-background:var(--soft);
-border-left:3px solid var(--accent);
-padding:8px 10px;
+  background:var(--soft);
+  border-left:3px solid var(--accent);
+  padding:8px 10px;
 }
 .meta{
-display:flex;
-justify-content:space-between;
-gap:14px;
-align-items:baseline;
-margin-bottom:3px;
+  display:flex;
+  justify-content:space-between;
+  gap:14px;
+  align-items:baseline;
+  margin-bottom:3px;
 }
 .meta span{
-white-space:nowrap;
-color:var(--muted);
-font-size:9.5px;
+  white-space:nowrap;
+  color:var(--muted);
+  font-size:9.5px;
 }
 .item{margin-bottom:9px}
+.compact{margin-top:4px;margin-bottom:5px}
+.compact li{margin:1px 0;font-size:9.4px}
 .skills{
-display:grid;
-grid-template-columns:1fr 1fr 1fr;
-gap:7px 11px;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap:7px 11px;
 }
 .skill{
-min-height:50px;
-padding:7px 8px;
-border:1px solid var(--line);
-border-radius:6px;
-background:#fff;
-font-size:9.1px;
+  min-height:50px;
+  padding:7px 8px;
+  border:1px solid var(--line);
+  border-radius:6px;
+  background:#fff;
+  font-size:9.1px;
 }
 .skill b{
-display:block;
-color:var(--accent);
-margin-bottom:2px;
-font-size:9.5px;
+  display:block;
+  color:var(--accent);
+  margin-bottom:2px;
+  font-size:9.5px;
 }
 .portfolio{
-margin-top:8px;
-display:flex;
-justify-content:space-between;
-gap:16px;
-align-items:center;
-padding:8px 10px;
-background:var(--accent-soft);
-border:1px solid #cdddea;
-border-radius:6px;
-font-size:9.5px;
+  margin-top:8px;
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  align-items:center;
+  padding:8px 10px;
+  background:var(--accent-soft);
+  border:1px solid #cdddea;
+  border-radius:6px;
+  font-size:9.5px;
 }
 .portfolio b{display:block;font-size:10px}
 .portfolio a{
-color:var(--accent);
-font-weight:700;
-text-decoration:none;
-white-space:nowrap;
+  color:var(--accent);
+  font-weight:700;
+  text-decoration:none;
+  white-space:nowrap;
 }
 .lead-role{
-border:1px solid #cad9e5;
-border-radius:7px;
-padding:9px 10px;
-background:linear-gradient(180deg,#fbfdff 0%,#f7fafc 100%);
+  border:1px solid #cad9e5;
+  border-radius:7px;
+  padding:9px 10px;
+  background:linear-gradient(180deg,#fbfdff 0%,#f7fafc 100%);
 }
 .focus{
-color:var(--muted);
-font-size:9.4px;
-margin:2px 0 7px;
+  color:var(--muted);
+  font-size:9.4px;
+  margin:2px 0 7px;
 }
 .project-grid{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:7px 9px;
-margin-top:6px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:7px 9px;
+  margin-top:6px;
 }
 .project-card{
-border-left:3px solid var(--accent);
-background:var(--soft);
-padding:7px 8px;
-min-height:72px;
+  border-left:3px solid var(--accent);
+  background:var(--soft);
+  padding:7px 8px;
+  min-height:72px;
 }
 .project-card p{font-size:9.25px;margin:2px 0}
 .project-card .tech{
-color:var(--muted);
-font-size:8.8px;
+  color:var(--muted);
+  font-size:8.8px;
 }
 .compact-teaching{
-border:1px solid var(--line);
-border-radius:6px;
-padding:7px 9px;
-background:#fbfcfd;
+  border:1px solid var(--line);
+  border-radius:6px;
+  padding:7px 9px;
+  background:#fbfcfd;
 }
 .compact-teaching p{margin:2px 0;font-size:9.3px}
-.ctu-projects{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:6px 8px;
-margin-top:6px;
-}
-.ctu-project{
-padding:6px 7px;
-border:1px solid var(--line);
-border-radius:5px;
-background:#fff;
-}
-.ctu-project b{display:block;color:var(--accent);font-size:9.5px}
-.ctu-project span{font-size:9px;color:var(--muted)}
 .two-col{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:10px 18px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px 18px;
 }
 .cert{
-padding:5px 0;
-border-bottom:1px dotted var(--line);
-font-size:9.4px;
+  padding:5px 0;
+  border-bottom:1px dotted var(--line);
+  font-size:9.4px;
 }
 .cert b{display:block}
 .badges{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px}
 .badge{
-border:1px solid var(--line);
-border-radius:999px;
-padding:2px 7px;
-font-size:8.7px;
-color:var(--muted);
+  border:1px solid var(--line);
+  border-radius:999px;
+  padding:2px 7px;
+  font-size:8.7px;
+  color:var(--muted);
 }
 .small{font-size:9.2px;color:var(--muted)}
 a{color:var(--accent)}
 .page-note{
-margin-top:12px;
-padding-top:6px;
-border-top:1px solid var(--line);
-font-size:8.5px;
-color:var(--muted);
-text-align:right;
+  margin-top:12px;
+  padding-top:6px;
+  border-top:1px solid var(--line);
+  font-size:8.5px;
+  color:var(--muted);
+  text-align:right;
 }
 @media print{
-html,body{background:#fff}
-.page{
-width:auto;
-min-height:297mm;
-margin:0;
-box-shadow:none;
-break-after:page;
-}
-.page:last-child{break-after:auto}
-a{text-decoration:none;color:inherit}
+  html,body{background:#fff}
+  .page{
+    width:auto;
+    min-height:297mm;
+    margin:0;
+    box-shadow:none;
+    break-after:page;
+  }
+  .page:last-child{break-after:auto}
+  a{text-decoration:none;color:inherit}
 }
 </style>
 </head>
 <body>
+
 <main class="page">
 <header>
-<div>
-<h1>HUYNH ANH DUY NGUYEN (HUBERT)</h1>
-<div class="role">AI &amp; Mechatronics Engineer | Robotics &amp; Automation | Data Analytics</div>
-</div>
-<div class="contact">
-<div><a href="mailto:huynhanhduy.nguyen@uts.edu.au">huynhanhduy.nguyen@uts.edu.au</a></div>
-<div>+61 435 523 282</div>
-<div><a href="https://www.linkedin.com/in/huynh-anh-duy-nguyen/">LinkedIn: huynh-anh-duy-nguyen</a></div>
-<div><a href="https://orcid.org/0000-0002-9315-0176">ORCID: 0000-0002-9315-0176</a></div>
-</div>
+  <div>
+    <h1>HUYNH ANH DUY NGUYEN (HUBERT)</h1>
+    <div class="role">AI &amp; Mechatronics Engineer | Robotics &amp; Automation | Data Analytics</div>
+  </div>
+  <div class="contact">
+    <div><a href="mailto:huynhanhduy.nguyen@uts.edu.au">huynhanhduy.nguyen@uts.edu.au</a></div>
+    <div>+61 435 523 282</div>
+    <div><a href="https://www.linkedin.com/in/huynh-anh-duy-nguyen/">LinkedIn: huynh-anh-duy-nguyen</a></div>
+    <div><a href="https://orcid.org/0000-0002-9315-0176">ORCID: 0000-0002-9315-0176</a></div>
+  </div>
 </header>
+
 <section>
-<h2>Professional Profile</h2>
-<p class="profile">
-PhD-qualified AI and Mechatronics Engineer with hands-on experience across intelligent sensing,
-scientific machine learning, embedded systems, robotics, automation and engineering prototyping.
-Experienced in developing complete research-engineering workflows from sensor integration and data
-acquisition through modelling, control, experimental validation and software interfaces.
-</p>
+  <h2>Professional Profile</h2>
+  <p class="profile">
+    PhD-qualified AI and Mechatronics Engineer with hands-on experience across intelligent sensing,
+    scientific machine learning, embedded systems, robotics, automation and engineering prototyping.
+    Experienced in developing complete research-engineering workflows from sensor integration and data
+    acquisition through modelling, control, experimental validation and software interfaces.
+  </p>
 </section>
+
 <section>
-<h2>Technical Skills</h2>
-<div class="skills">
-<div class="skill"><b>AI &amp; Machine Learning</b>Python, TensorFlow, PyTorch, CNN, LSTM, BNN, Transformers, multimodal feature engineering, uncertainty modelling</div>
-<div class="skill"><b>Data Engineering &amp; Analytics</b>ETL, time-series analysis, SQL, R, NumPy, Tableau, sensor-data processing and visualisation</div>
-<div class="skill"><b>Robotics &amp; Automation</b>Robot arms, motion control, PLC, automation systems, MATLAB, LabVIEW, laboratory automation</div>
-<div class="skill"><b>Embedded &amp; IoT</b>Arduino, STM32, ESP32, Raspberry Pi, C/C++, PWM, serial communication, sensor and actuator integration</div>
-<div class="skill"><b>Mechanical &amp; Electronic Design</b>AutoCAD, Autodesk Inventor, CAD prototyping, Altium, PCB and circuit design</div>
-<div class="skill"><b>Cloud &amp; Software</b>Azure AI, AWS, Flask, HTML, CSS, JavaScript, Git, browser interfaces and scientific software</div>
-</div>
-<div class="portfolio">
-<div><b>Engineering Portfolio &amp; Project Demonstrations</b>Live examples of AI, robotics, automation, embedded control, sensing and physical prototypes.</div>
-<a href="https://nhaduy99.github.io/portfolio_website/" target="_blank" rel="noopener">View Portfolio ↗</a>
-</div>
+  <h2>Technical Skills</h2>
+  <div class="skills">
+    <div class="skill"><b>AI &amp; Machine Learning</b>Python, TensorFlow, PyTorch, CNN, LSTM, BNN, Transformers, multimodal feature engineering, uncertainty modelling</div>
+    <div class="skill"><b>Data Engineering &amp; Analytics</b>ETL, time-series analysis, SQL, R, NumPy, Tableau, sensor-data processing and visualisation</div>
+    <div class="skill"><b>Robotics &amp; Automation</b>Robot arms, motion control, PLC, automation systems, MATLAB, LabVIEW, laboratory automation</div>
+    <div class="skill"><b>Embedded &amp; IoT</b>Arduino, STM32, ESP32, Raspberry Pi, C/C++, PWM, serial communication, sensor and actuator integration</div>
+    <div class="skill"><b>Mechanical &amp; Electronic Design</b>AutoCAD, Autodesk Inventor, CAD prototyping, Altium, PCB and circuit design</div>
+    <div class="skill"><b>Cloud &amp; Software</b>Azure AI, AWS, Flask, HTML, CSS, JavaScript, Git, browser interfaces and scientific software</div>
+  </div>
+  <div class="portfolio">
+    <div><b>Engineering Portfolio &amp; Project Demonstrations</b>Live examples of AI, robotics, automation, embedded control, sensing and physical prototypes.</div>
+    <a href="https://nhaduy99.github.io/portfolio_website/" target="_blank" rel="noopener">View Portfolio ↗</a>
+  </div>
 </section>
+
 <section>
-<h2>Current Engineering &amp; Research Experience</h2>
-<div class="lead-role">
-<div class="meta">
-<h3>Postdoctoral Research Fellow — Climate Change Cluster (C3), University of Technology Sydney</h3>
-<span>Dec 2024 – Present</span>
-</div>
-<p class="focus"><b>Focus:</b> AI, intelligent sensing and laboratory automation for algae cultivation and bioprocess research.</p>
-<div class="project-grid">
-<div class="project-card">
-<h4>AI Box — Laboratory Automation</h4>
-<p>Python/Flask interface integrating three pumps, a linear actuator and live TCS34725 colour-sensor readings, with independent PWM, direction and stop controls plus CSV export.</p>
-<p class="tech">Python · Flask · Raspberry Pi · Sensor/actuator integration</p>
-</div>
-<div class="project-card">
-<h4>ePBR Embedded Controller</h4>
-<p>Arduino/C++ firmware integrating temperature and jacket-temperature sensing, LED intensity, fans, thermal actuation and an air-valve relay through a serial-command interface.</p>
-<p class="tech">Arduino · C++ · PWM · Serial protocols · Bioprocess control</p>
-</div>
-<div class="project-card">
-<h4>Spectral Soft Sensors</h4>
-<p>Python research pipeline combining Raman and excitation–emission fluorescence features to investigate glucose, xylose and rhamnose concentration prediction using multimodal feature fusion and model comparison.</p>
-<p class="tech">Python · NumPy · Raman · Fluorescence · Multimodal ML</p>
-</div>
-<div class="project-card">
-<h4>Algae Inoculation Agent</h4>
-<p>Scientific software that ranks literature-derived growth conditions against species, objectives and laboratory constraints and produces structured JSON and readable experiment reports.</p>
-<p class="tech">Python · Evidence scoring · Browser UI · Research decision support</p>
-</div>
-</div>
-<ul>
-<li>Contribute to laboratory automation demonstrations including an automated Raman system and robotic autoQY-reading workflow.</li>
-<li>Translate experimental requirements into practical combinations of sensors, embedded control, data processing and user-facing research tools.</li>
-</ul>
-</div>
+  <h2>Current Engineering &amp; Research Experience</h2>
+  <div class="lead-role">
+    <div class="meta">
+      <h3>Postdoctoral Research Fellow — Climate Change Cluster (C3), University of Technology Sydney</h3>
+      <span>Dec 2024 – Present</span>
+    </div>
+    <p class="focus"><b>Focus:</b> AI, intelligent sensing and laboratory automation for algae cultivation and bioprocess research.</p>
+
+    <div class="project-grid">
+      <div class="project-card">
+        <h4>AI Box — Laboratory Automation</h4>
+        <p>Python/Flask interface integrating three pumps, a linear actuator and live TCS34725 colour-sensor readings, with independent PWM, direction and stop controls plus CSV export.</p>
+        <p class="tech">Python · Flask · Raspberry Pi · Sensor/actuator integration</p>
+      </div>
+
+      <div class="project-card">
+        <h4>ePBR Embedded Controller</h4>
+        <p>Arduino/C++ firmware integrating temperature and jacket-temperature sensing, LED intensity, fans, thermal actuation and an air-valve relay through a serial-command interface.</p>
+        <p class="tech">Arduino · C++ · PWM · Serial protocols · Bioprocess control</p>
+      </div>
+
+      <div class="project-card">
+        <h4>Spectral Soft Sensors</h4>
+        <p>Python research pipeline combining Raman and excitation–emission fluorescence features to investigate glucose, xylose and rhamnose concentration prediction using multimodal feature fusion and model comparison.</p>
+        <p class="tech">Python · NumPy · Raman · Fluorescence · Multimodal ML</p>
+      </div>
+
+      <div class="project-card">
+        <h4>Algae Inoculation Agent</h4>
+        <p>Scientific software that ranks literature-derived growth conditions against species, objectives and laboratory constraints and produces structured JSON and readable experiment reports.</p>
+        <p class="tech">Python · Evidence scoring · Browser UI · Research decision support</p>
+      </div>
+    </div>
+
+    <ul>
+      <li>Contribute to laboratory automation demonstrations including an automated Raman system and robotic autoQY-reading workflow.</li>
+      <li>Translate experimental requirements into practical combinations of sensors, embedded control, data processing and user-facing research tools.</li>
+    </ul>
+  </div>
 </section>
+
 <section>
-<h2>Selected AI &amp; Data Engineering Project</h2>
-<div class="item">
-<div class="meta">
-<h3>Deep Learning for Air-Quality Forecasting — UTS / NSW DCCEEW</h3>
-<span>Dec 2020 – Jul 2024</span>
-</div>
-<ul>
-<li>Built ETL and analytical workflows for air-quality data from 70+ sensors and 50 monitoring stations across New South Wales.</li>
-<li>Developed ensemble and hybrid LSTM, CNN and Bayesian neural-network forecasting models, with reported accuracy improvement of more than 30% over methods then used by government agencies.</li>
-<li>Developed a web dashboard prototype using HTML, CSS and JavaScript to demonstrate deployment of forecasting models and environmental monitoring data.</li>
-</ul>
-</div>
+  <h2>Selected AI &amp; Data Engineering Project</h2>
+  <div class="item">
+    <div class="meta">
+      <h3>Deep Learning for Air-Quality Forecasting — UTS / NSW DCCEEW</h3>
+      <span>Dec 2020 – Jul 2024</span>
+    </div>
+    <ul>
+      <li>Built ETL and analytical workflows for air-quality data from 70+ sensors and 50 monitoring stations across New South Wales.</li>
+      <li>Developed ensemble and hybrid LSTM, CNN and Bayesian neural-network forecasting models, with reported accuracy improvement of more than 30% over methods then used by government agencies.</li>
+      <li>Developed a web dashboard prototype using HTML, CSS and JavaScript to demonstrate deployment of forecasting models and environmental monitoring data.</li>
+    </ul>
+  </div>
 </section>
+
 <div class="page-note">Engineering CV · Huynh Anh Duy Nguyen (Hubert)</div>
 </main>
+
+
 <main class="page">
 <header>
-<div>
-<h1>ENGINEERING EXPERIENCE</h1>
-<div class="role">Mechatronics · Embedded Systems · Robotics · Automation</div>
-</div>
-<div class="contact">Huynh Anh Duy Nguyen (Hubert)</div>
+  <div>
+    <h1>ENGINEERING EXPERIENCE</h1>
+    <div class="role">Mechatronics · Embedded Systems · Robotics · Automation</div>
+  </div>
+  <div class="contact">Huynh Anh Duy Nguyen (Hubert)</div>
 </header>
+
 <section>
-<h2>Engineering &amp; Academic Experience</h2>
-<div class="item">
-<div class="meta">
-<h3>University Lecturer — Department of Automation Technology, Can Tho University, Vietnam</h3>
-<span>Jan 2010 – Dec 2019</span>
-</div>
-<p>
-Delivered engineering teaching and project supervision across mechatronic system design, embedded systems,
-industrial robotics and automation, while developing practical hardware and control-system prototypes.
-</p>
-<ul>
-<li>Mechatronic design: 2D AutoCAD, 3D Autodesk Inventor, engineering project design and Altium-based circuit design.</li>
-<li>Embedded systems: C/C++ programming using Arduino, STM32 and ESP32 platforms.</li>
-<li>Robotics and automation: robot-arm design and control using MATLAB and LabVIEW.</li>
-</ul>
-<h4>Selected CTU-era Engineering Portfolio</h4>
-<div class="ctu-projects">
-<div class="ctu-project">
-<b>Conveyor 3D Printer</b>
-<span>Conveyor-style additive-manufacturing prototype integrating mechanical design, electronics and coordinated motion control.</span>
-</div>
-<div class="ctu-project">
-<b>5-DoF Educational Robot Arm</b>
-<span>3D-printed robotic arm for kinematics and automation education with a dedicated control interface.</span>
-</div>
-<div class="ctu-project">
-<b>Automatic Glass-Cleaning Robot</b>
-<span>Physical cleaning prototype combining mechanical design, embedded electronics and a cleaning-fluid delivery system; supported by a published research output.</span>
-</div>
-<div class="ctu-project">
-<b>IoT Vending Machine</b>
-<span>Automated Vietnamese bread vending prototype integrating dispensing mechanisms, embedded control and a user interface.</span>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="meta">
-<h3>University Tutor — Faculty of Engineering &amp; IT, University of Technology Sydney</h3>
-<span>Feb 2020 – Jun 2024</span>
-</div>
-<p>Tutored Electromechanical Automation and supervised Biomedical Engineering Studio and master’s Neural Networks &amp; Fuzzy Logic cohorts, including classes of 40–80+ students.</p>
-</div>
-<div class="compact-teaching">
-<div class="meta">
-<h3>Concurrent Casual Lecturer Appointments — Sydney</h3>
-<span>2024 – Present</span>
-</div>
-<p><b>Sydney Metropolitan Institute of Technology:</b> Foundations of Computer Programming; Cloud Computing; Cyber Security; ICT616 — AI for Data Science.</p>
-<p><b>Polytechnic Institute Australia:</b> NTW302 — Interior Routing Protocol and Their Implementation; ICT100 — Foundations of Computer Networks.</p>
-<p><b>King’s Own Institute:</b> Artificial Intelligence; Systems Analysis &amp; Design; ICT370 — Data Analytics.</p>
-</div>
+  <h2>Engineering &amp; Academic Experience</h2>
+
+  <div class="item">
+    <div class="meta">
+      <h3>University Lecturer — Department of Automation Technology, Can Tho University, Vietnam</h3>
+      <span>Jan 2010 – Dec 2019</span>
+    </div>
+    <p>
+      Delivered engineering teaching and project supervision across mechatronic system design, embedded systems,
+      industrial robotics and automation, while developing practical hardware and control-system prototypes.
+    </p>
+    <ul>
+      <li>Mechatronic design: 2D AutoCAD, 3D Autodesk Inventor, engineering project design and Altium-based circuit design.</li>
+      <li>Embedded systems: C/C++ programming using Arduino, STM32 and ESP32 platforms.</li>
+      <li>Robotics and automation: robot-arm design and control using MATLAB and LabVIEW.</li>
+    </ul>
+
+    <h4>Selected CTU-era Engineering Portfolio</h4>
+    <ul class="compact">
+      <li>Conveyor 3D Printer</li>
+      <li>5-DoF Educational Robot Arm</li>
+      <li>Automatic Glass-Cleaning Robot</li>
+      <li>IoT Vending Machine</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="meta">
+      <h3>University Tutor — Faculty of Engineering &amp; IT, University of Technology Sydney</h3>
+      <span>Feb 2020 – Jun 2024</span>
+    </div>
+    <p>Tutored Electromechanical Automation and supervised Biomedical Engineering Studio and master’s Neural Networks &amp; Fuzzy Logic cohorts, including classes of 40–80+ students.</p>
+  </div>
+
+  <div class="compact-teaching">
+    <div class="meta">
+      <h3>Concurrent Casual Lecturer Appointments — Sydney</h3>
+      <span>2024 – Present</span>
+    </div>
+    <p><b>Sydney Metropolitan Institute of Technology:</b> Foundations of Computer Programming; Cloud Computing; Cyber Security; ICT616 — AI for Data Science.</p>
+    <p><b>Polytechnic Institute Australia:</b> NTW302 — Interior Routing Protocol and Their Implementation; ICT100 — Foundations of Computer Networks.</p>
+    <p><b>King’s Own Institute:</b> Artificial Intelligence; Systems Analysis &amp; Design; ICT370 — Data Analytics.</p>
+  </div>
 </section>
+
 <section>
-<h2>Engineering Strengths Demonstrated Across Projects</h2>
-<div class="two-col">
-<div>
-<h4>Physical Systems</h4>
-<ul>
-<li>Mechanical and mechatronic prototyping</li>
-<li>Sensor and actuator integration</li>
-<li>Embedded controllers and serial interfaces</li>
-<li>Robotics, motion control and automation</li>
-</ul>
-</div>
-<div>
-<h4>Intelligent Systems</h4>
-<ul>
-<li>Time-series and spectral data analytics</li>
-<li>Deep learning and multimodal modelling</li>
-<li>Scientific decision-support software</li>
-<li>Web interfaces and research dashboards</li>
-</ul>
-</div>
-</div>
+  <h2>Engineering Strengths Demonstrated Across Projects</h2>
+  <div class="two-col">
+    <div>
+      <h4>Physical Systems</h4>
+      <ul>
+        <li>Mechanical and mechatronic prototyping</li>
+        <li>Sensor and actuator integration</li>
+        <li>Embedded controllers and serial interfaces</li>
+        <li>Robotics, motion control and automation</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Intelligent Systems</h4>
+      <ul>
+        <li>Time-series and spectral data analytics</li>
+        <li>Deep learning and multimodal modelling</li>
+        <li>Scientific decision-support software</li>
+        <li>Web interfaces and research dashboards</li>
+      </ul>
+    </div>
+  </div>
 </section>
+
 <section>
-<h2>Education</h2>
-<div class="item">
-<div class="meta"><h3>PhD in Engineering and IT — University of Technology Sydney, Australia</h3><span>2020 – 2024</span></div>
-<p>Thesis: <em>Performance Enhancement in Reliable Monitoring and Accurate Forecasting of Air Pollution</em>.</p>
-</div>
-<div class="item">
-<div class="meta"><h3>MSc (Hons) in Mechatronics Engineering — University of Siegen, Germany</h3><span>2012 – 2015</span></div>
-<p>Final result: Very Good (GPA 1.5, German system; stated equivalent 3.2/4.0).</p>
-</div>
-<div class="item">
-<div class="meta"><h3>BEng in Mechatronics Engineering — Can Tho University, Vietnam</h3><span>2005 – 2009</span></div>
-<p>Final result: Excellence (GPA 3.6/4.0).</p>
-</div>
+  <h2>Education</h2>
+  <div class="item">
+    <div class="meta"><h3>PhD in Engineering and IT — University of Technology Sydney, Australia</h3><span>2020 – 2024</span></div>
+    <p>Thesis: <em>Performance Enhancement in Reliable Monitoring and Accurate Forecasting of Air Pollution</em>.</p>
+  </div>
+  <div class="item">
+    <div class="meta"><h3>MSc (Hons) in Mechatronics Engineering — University of Siegen, Germany</h3><span>2012 – 2015</span></div>
+    <p>Final result: Very Good (GPA 1.5, German system; stated equivalent 3.2/4.0).</p>
+  </div>
+  <div class="item">
+    <div class="meta"><h3>BEng in Mechatronics Engineering — Can Tho University, Vietnam</h3><span>2005 – 2009</span></div>
+    <p>Final result: Excellence (GPA 3.6/4.0).</p>
+  </div>
 </section>
+
 <section>
-<h2>Certifications &amp; Professional Development</h2>
-<div class="two-col">
-<div>
-<div class="cert"><b>Microsoft Certified: Azure AI Engineer Associate</b>May 2024</div>
-<div class="cert"><b>Google Data Analytics Specialization</b>May 2023</div>
-<div class="cert"><b>Deep Learning — DeepLearning.AI</b>Sep 2022</div>
-</div>
-<div>
-<div class="cert"><b>Introduction to Big Data — UC San Diego</b>Jul 2023</div>
-<div class="cert"><b>Master Teacher Training Program — Arizona State University</b>May 2018</div>
-<div class="cert"><b>Full NSW Driving Licence</b>Nov 2020</div>
-</div>
-</div>
+  <h2>Certifications &amp; Professional Development</h2>
+  <div class="two-col">
+    <div>
+      <div class="cert"><b>Microsoft Certified: Azure AI Engineer Associate</b>May 2024</div>
+      <div class="cert"><b>Google Data Analytics Specialization</b>May 2023</div>
+      <div class="cert"><b>Deep Learning — DeepLearning.AI</b>Sep 2022</div>
+    </div>
+    <div>
+      <div class="cert"><b>Introduction to Big Data — UC San Diego</b>Jul 2023</div>
+      <div class="cert"><b>Master Teacher Training Program — Arizona State University</b>May 2018</div>
+      <div class="cert"><b>Full NSW Driving Licence</b>Nov 2020</div>
+    </div>
+  </div>
 </section>
+
 <section>
-<h2>Research Outputs &amp; Professional Memberships</h2>
-<p><b>Research publications:</b> Full record available via <a href="https://orcid.org/0000-0002-9315-0176">ORCID 0000-0002-9315-0176</a>.</p>
-<p><b>Selected engineering output:</b> Automatic glass-cleaning device — mechanical design and control for a robotic cleaning prototype.</p>
-<div class="badges">
-<span class="badge">IEEE</span>
-<span class="badge">IoT Alliance Australia (IOTAA)</span>
-</div>
+  <h2>Research Outputs &amp; Professional Memberships</h2>
+  <p><b>Research publications:</b> Full record available via <a href="https://orcid.org/0000-0002-9315-0176">ORCID 0000-0002-9315-0176</a>.</p>
+  <p><b>Selected engineering output:</b> Automatic glass-cleaning device — mechanical design and control for a robotic cleaning prototype.</p>
+  <div class="badges">
+    <span class="badge">IEEE</span>
+    <span class="badge">IoT Alliance Australia (IOTAA)</span>
+  </div>
 </section>
+
 <section>
-<h2>References</h2>
-<p>Available upon request.</p>
+  <h2>References</h2>
+  <p>Available upon request.</p>
 </section>
+
 <div class="page-note">Engineering CV · Huynh Anh Duy Nguyen (Hubert)</div>
 </main>
+
 </body>
 </html>
