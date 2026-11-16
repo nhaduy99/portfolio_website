@@ -1,0 +1,1 @@
+Clips extracted and transcoded to web-optimised H.264 (audio removed to avoid incidental laboratory conversations) from slides 10 and 13 of the supplied November 2026 C3 SRA presentation. Respectively 39.31 and 46.50 seconds. No autoplay. Context and limitations appear beside each player.
